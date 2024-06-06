@@ -16,7 +16,9 @@ function App() {
   return (
     <>
       <TonConnectUIProvider
-        manifestUrl="https://ton-connect.github.io/demo-dapp-with-react-ui/tonconnect-manifest.json"
+        // https://ton-connect.github.io/demo-dapp-with-react-ui/tonconnect-manifest.json
+        // https://kaiqiangh.github.io/vanilla-js-boilerplate/
+        manifestUrl="https://kaiqiangh.github.io/vanilla-js-boilerplate/tonconnect-manifest.json"
         uiPreferences={{ theme: THEME.DARK }}
         walletsListConfiguration={{
           includeWallets: [
@@ -46,7 +48,9 @@ function App() {
           ],
         }}
         actionsConfiguration={{
-          twaReturnUrl: "https://t.me/DemoDappWithTonConnectBot/demo",
+          // https://t.me/TWA_CG_BOT
+          // https://t.me/DemoDappWithTonConnectBot/demo
+          twaReturnUrl: "https://t.me/TWA_CG_BOT",
         }}
       >
         <TonConnectButton />
