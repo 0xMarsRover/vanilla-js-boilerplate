@@ -18,7 +18,7 @@ function App() {
       <TonConnectUIProvider
         // https://ton-connect.github.io/demo-dapp-with-react-ui/tonconnect-manifest.json
         // https://kaiqiangh.github.io/vanilla-js-boilerplate/
-        manifestUrl="https://kaiqiangh.github.io/vanilla-js-boilerplate/tonconnect-manifest.json"
+        manifestUrl="https://0xmarsrover.github.io/vanilla-js-boilerplate/tonconnect-manifest.json"
         uiPreferences={{ theme: THEME.DARK }}
         walletsListConfiguration={{
           includeWallets: [
